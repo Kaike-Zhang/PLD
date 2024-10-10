@@ -1,4 +1,4 @@
-# SelfDenoise
+# PLD
 
 ## Environment
 - python >= 3.8
