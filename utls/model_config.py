@@ -30,7 +30,7 @@ def get_Origin_config(org_config):
         }
     return config
 
-def get_SelfDenoise_config(org_config):
+def get_PLD_config(org_config):
     config = {
         "begin_adv": 5,
         "item_num": org_config["item_num"],

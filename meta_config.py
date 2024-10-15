@@ -39,7 +39,7 @@ parser.add_argument('--n_epochs', type=int, default=100, help='max epoch')
 parser.add_argument('--rec_top_k', type=list, default=[20, 50], help='K in evaluation')
 
 
-parser.add_argument('--method', type=str, default='DeCA', help='presentage of injected user')
+parser.add_argument('--method', type=str, default='PLD', help='presentage of injected user')
 
 parser.add_argument('--temp', type=float, default=0.1, help='noise ratio')
 parser.add_argument('--item_num', type=int, default=5, help='max epoch')

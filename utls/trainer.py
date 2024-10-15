@@ -208,7 +208,7 @@ class CFTrainer(BasicTrainer):
         print(out_text)
 
 
-class SelfDenoiseCFTrainer(CFTrainer):
+class PLDCFTrainer(CFTrainer):
     def __init__(self, trainer_config) -> None:
         super().__init__(trainer_config)
         
