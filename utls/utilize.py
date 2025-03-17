@@ -58,25 +58,6 @@ class Unbuffered(object):
     def __getattr__(self, attr):
         return getattr(self.stream, attr)
     
-def calculate_f1(predict_tensor, label_tensor, threshold=0.5):
-    """
-    Calculate F1 score given predict tensor and label tensor.
-    """
-
-    # Flatten the tensors
-    predict_tensor = predict_tensor.detach().flatten()
-    label_tensor = label_tensor.detach().flatten()
-
-    # Binarize the predictions using the threshold
-    predict_tensor = (predict_tensor > threshold).float()
-
-    # Calculate True Positives, False Positives, False Negatives
-    tp = (predict_tensor * label_tensor).sum().float()
-    fp = (predict_tensor * (1 - label_tensor)).sum().float()
-    fn = ((1 - predict_tensor) * label_tensor).sum().float()
-
-    
-    return tp.item(), fp.item(), fn.item()
 
 
 def slice_lists(list1, list2, batch_size):
