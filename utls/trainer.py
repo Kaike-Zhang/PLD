@@ -12,7 +12,7 @@ from utls.mydataset import CFDataset
 from model.MF.MF import *
 from model.LightGCN.LightGCN import *
 from model.NeuMF.NeuMF import *
-from utls.utilize import calculate_f1, bpr_loss, custom_loss, slice_lists, batch_split
+from utls.utilize import slice_lists, batch_split
 
 
 class BasicTrainer:
