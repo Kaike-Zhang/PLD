@@ -1,6 +1,6 @@
 # PLD
 
-This paper has been accepted by WWW 2025. [Link to the paper on Arxiv]([https://arxiv.org/pdf/2410.22844](https://arxiv.org/pdf/2502.00348)
+This paper has been accepted by WWW 2025. [Link to the paper on Arxiv][https://arxiv.org/pdf/2410.22844](https://arxiv.org/pdf/2502.00348)
 
 ## Authors
 - **Kaike Zhang**
